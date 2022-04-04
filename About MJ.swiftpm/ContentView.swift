@@ -3,7 +3,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TabView { //TabView는 네비게이션(메뉴) 설정 뷰, 기본적으로 맨 위 뷰가 
+        TabView { //TabView는 네비게이션(메뉴) 설정 뷰, 기본적으로 맨 위 뷰가 노출됨
             
             HomeView()
                 .tabItem{
