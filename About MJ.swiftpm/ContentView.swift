@@ -1,8 +1,9 @@
+//홈화면
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TabView {
+        TabView { //TabView는 네비게이션(메뉴) 설정 뷰
             
             HomeView()
                 .tabItem{
